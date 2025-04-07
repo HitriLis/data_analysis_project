@@ -8,9 +8,9 @@ USE analysis;
 CREATE TABLE IF NOT EXISTS user_info
 (
     GUID String,
-    LastName String,
-    FirstName String,
-    MiddleName String
+    LastName Nullable(String),
+    FirstName Nullable(String),
+    MiddleName Nullable(String)
 )
 ENGINE = MergeTree()
 ORDER BY GUID;
