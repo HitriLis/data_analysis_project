@@ -1,8 +1,8 @@
 -- Создание базы данных (если она не существует)
-CREATE DATABASE IF NOT EXISTS user_data;
+CREATE DATABASE IF NOT EXISTS analysis;
 
 -- Переключаемся на созданную базу данных
-USE user_data;
+USE analysis;
 
 -- Создание таблицы для пользователей
 CREATE TABLE IF NOT EXISTS user_info
