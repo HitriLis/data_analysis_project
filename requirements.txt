@@ -1,7 +1,9 @@
 jupyterlab
 pandas
 numpy
+statsmodels
 matplotlib
+plotly
 seaborn
 clickhouse-connect
 python-dotenv

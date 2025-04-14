@@ -9,7 +9,7 @@ services:
     ports:
       - "8123:8123"
     volumes:
-      - ./clickhouse/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./init/init.sql:/docker-entrypoint-initdb.d/init.sql
       - clickhouse_data:/var/lib/clickhouse
 
   jupyter:
