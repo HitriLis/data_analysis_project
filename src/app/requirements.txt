@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pydantic
+clickhouse-connect
+python-dotenv
